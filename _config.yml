@@ -15,8 +15,14 @@ widgets_on_small_screens: false ## Set to true to enable widgets on small screen
 
 menu:
   - page: home
-    directory: .
-    icon: fa-home
+    directory: ./
+    icon: fa-home # 更多图标，参见http://fontawesome.io/icons/ ，直接将图标的名字写上去就好，格式为fa-<iconname>
+  # - page: coding
+  #   directory: coding
+  #   icon: fa-code
+  # - page: life
+  #   directory: life
+  #   icon: fa-shower
   - page: archive
     directory: archives/
     icon: fa-archive
@@ -27,21 +33,22 @@ menu:
     directory: atom.xml
     icon: fa-rss
 
+
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
   - search
-  - category
+  # - category
   - tag
   - recent_posts
-  - recent_comments
+  # - recent_comments
   - links
 
 links:
-  - title: site-name1
-    url: http://www.example1.com/
-  - title: site-name2
-    url: http://www.example2.com/
-  - title: site-name3
-    url: http://www.example3.com/
+  - title: MacTalk
+    url: http://macshuo.com/
+  - title: 酷壳
+    url: http://coolshell.cn/
+  - title: 尹星的博客
+    url: ttp://time2read.cn/
 
 timeline:
   - num: 1
